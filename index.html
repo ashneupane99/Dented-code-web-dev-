@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+    <html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web</title>
+</head>
+<body>
+    wsdhjfbsjndmsakmdsk
+    <a href="./form.html"></a>
+<button>Register</button> <br>
+   Lorem, ipsum dolor sit amet consectetur adipisicingelit. Deleniti ea placeat ratione harum assumenda maxime illum cumque at rem sint.
+<!-- the green writings are comments/notes which are not seen in the webpage -->
+   <!-- heading is from 1 to 6 -->
+    <h1>This is H1</h1>
+    <h2>This is H2</h2>
+    <h3>This is H3</h3>
+    <h4>This is H4</h4>
+    <h5>This is H5</h5>
+    <h6>This is H6</h6>
+
+    <!-- Paragraph -->
+
+<p>
+    hey this is paragraph 
+</p>
+<p>
+    hey this is paragraph 
+</p>
+
+<!-- div(doesnot use padding in between texts like the space between h1 sentences) -->
+<div>
+    This is my first div.
+</div>
+<div>
+    This is my second div.
+</div>
+<!-- span is inline element -->
+<!-- span only occupies the section of the content in the web page,  not any other space-->
+<span>first span</span> 
+<span>2nd span</span>
+<span>3rd span</span>
+
+<!-- nested elements -->
+<div>
+    <h2>About me</h2>
+   <hr> <!--  provides horizontal line. Doesnot need a closing tag -->
+    <div>
+       <p>My bio is this</p>
+       <p>My bio is this</p>
+    </div>
+
+    <!-- image -->
+    <img 
+    src="./pic1.jpg" 
+    width="200px"/>
+    <br> 
+    <!-- adding image as a link to desired website -->
+    <a href="https://images.unsplash.com/" target="_blank">
+    
+    <img src="https://images.unsplash.com/photo-1678951601005-e5ab20360d2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60"
+    width="200px" height="auto" alt="Important info graphics"
+    /> </a>
+
+    <!-- how to add links: use a href="" attribute--><br><br><br>
+    <a href="http://www.google.com" target="_blank">Go to Google</a> <br>  <!--http allows access to external website and target helps to open the link in new tab-->>
+   <!-- following code is link to another page within our folder. using ./ tells code that the page is within our same folder -->
+    <a href="./about-me.html">About Me</a> 
+</div>
+
+<!-- semantic elements -->
+<section>
+<!-- article 1 -->
+    <article>
+    <h4>This is article 1</h4>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis error earum cumque totam, sapiente molestiae adipisci odit quas rerum recusandae autem laborum, consequatur molestias natus dolorum. Enim eaque ut repellat.
+    </p>
+    </article>
+<!-- article 2 -->
+<article>
+    <h4>This is article 2</h4>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis error earum cumque totam, sapiente molestiae adipisci odit quas rerum recusandae autem laborum, consequatur molestias natus dolorum. Enim eaque ut repellat.
+    </p>
+</article>
+<!-- article 3 -->
+<article>
+    <h4>This is article 3</h4>
+    <hr>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis error earum cumque totam, sapiente molestiae adipisci odit quas rerum recusandae autem laborum, consequatur molestias natus dolorum. Enim eaque ut repellat.
+    </p>
+</article>
+
+</section>
+
+<!-- data management. we use list and table for data management -->
+
+<!-- list -->
+
+<!-- unorder list -->
+    <h4>Learning list:</h4>
+    <!-- options are disc, circle and square. the button that comes before any item in list eg: . or circle -->
+        <ul type="square">
+            <li>Html</li>
+            <li>Javascript</li>
+            <!-- use ul>li*3 to get 3 lists inside ul  -->
+            <ul>
+                <li>a</li>
+                <li>b</li>
+                <li>c</li>
+            </ul>
+            <li>CSS</li>
+            
+
+            </ul>
+        </ul>
+
+<!-- order list -->
+    <h4>WEB DEVELOPMENT FRAMEWORKS:</h4>
+    <!-- ordered list options: 1, a, A, i, I -->
+    <ol type="1">
+        <li>React</li>
+            <ul>
+                <li>components</li>
+                <li>props</li>
+                <li>state</li>
+            </ul>
+        <li>Next</li>
+        <li>Remix</li>
+        <li>Vue</li>
+    </ol>
+<!-- table -->
+        <table border="1">
+            <thead>
+                <th>Frist Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </thead>
+            <tbody>
+               <tr> <!--  tr creates a row and td(used to create column) matches the column with the row -->
+                    <td>Aashutosh</td>
+                    <td>sjfnsd</td>
+                    <td>dfjns</td>
+                    <td>11121222</td>
+                </tr>
+                <tr> 
+                    <td>man</td>
+                    <td>sjfnsd</td>
+                    <td>dfjns</td>
+                    <td>1223243</td>
+                </tr>
+                <tr> 
+                    <td colspan="2">woman</td><!--  colspan defines how many columns to occupy  -->
+                    <td>dfjns</td>
+                    <td>
+                    <a href="tel:0433863511">3123242</a>    
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    
+<footer>
+  <br>  &copy; copy all right reserved made by me ❤️
+</footer>
+
+    </body>
+</html>
